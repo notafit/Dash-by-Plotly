@@ -18,7 +18,7 @@ app.layout = html.Div([
             style={'padding': 10}
         ),
         html.Button('Add Column', id='adding-columns-button', n_clicks=0)
-    ], style={'height': 50}),
+    ], style={'height': 50})
 
     dash_table.DataTable(
         id='our-table',
